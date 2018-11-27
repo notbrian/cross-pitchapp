@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "852e7c56d906e52b6494",
+    "revision": "0ca44d28e0d88c0dff52",
     "url": "/pitchapp/static/css/main.8a486fac.chunk.css"
   },
   {
-    "revision": "852e7c56d906e52b6494",
-    "url": "/pitchapp/static/js/main.852e7c56.chunk.js"
+    "revision": "0ca44d28e0d88c0dff52",
+    "url": "/pitchapp/static/js/main.0ca44d28.chunk.js"
   },
   {
     "revision": "bd6fa8ebcda757b1bfd7",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/pitchapp/static/js/runtime~main.393d2773.js"
   },
   {
-    "revision": "388880bc9a1e2904c568cfdca12a993a",
+    "revision": "9b56e423c2de56977df163f3191d11db",
     "url": "/pitchapp/index.html"
   }
 ];

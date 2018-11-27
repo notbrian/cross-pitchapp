@@ -1,13 +1,13 @@
 {
   "main.css": "/pitchapp/static/css/main.8a486fac.chunk.css",
-  "main.js": "/pitchapp/static/js/main.852e7c56.chunk.js",
-  "main.js.map": "/pitchapp/static/js/main.852e7c56.chunk.js.map",
+  "main.js": "/pitchapp/static/js/main.0ca44d28.chunk.js",
+  "main.js.map": "/pitchapp/static/js/main.0ca44d28.chunk.js.map",
   "static/js/1.bd6fa8eb.chunk.js": "/pitchapp/static/js/1.bd6fa8eb.chunk.js",
   "static/js/1.bd6fa8eb.chunk.js.map": "/pitchapp/static/js/1.bd6fa8eb.chunk.js.map",
   "runtime~main.js": "/pitchapp/static/js/runtime~main.393d2773.js",
   "runtime~main.js.map": "/pitchapp/static/js/runtime~main.393d2773.js.map",
   "static/css/main.8a486fac.chunk.css.map": "/pitchapp/static/css/main.8a486fac.chunk.css.map",
   "index.html": "/pitchapp/index.html",
-  "precache-manifest.9bccd4fda2fde9f7e991ddb7e15bc690.js": "/pitchapp/precache-manifest.9bccd4fda2fde9f7e991ddb7e15bc690.js",
+  "precache-manifest.cf4f6a79d9334ea574ffdcb6bef81f3f.js": "/pitchapp/precache-manifest.cf4f6a79d9334ea574ffdcb6bef81f3f.js",
   "service-worker.js": "/pitchapp/service-worker.js"
 }
