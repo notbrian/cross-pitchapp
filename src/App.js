@@ -1,28 +1,22 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Landing from "./components/Landing.jsx"
+import Main from "./components/Main.jsx"
+import Create from "./components/Create.jsx"
+import Scan from "./components/Scan.jsx"
+import Login from "./components/Login.jsx"
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+
+const App = () => (
+  <Router>
+    <div>
+      <Route path="/" exact component={Landing} />
+      <Route path="/login" exact component={Login} />
+      <Route path="/main"  component={Main} />
+      <Route path="/create" component={Create} />
+      <Route path="/scan" component={Scan} />
+    </div>
+  </Router>
+);
 
 export default App;
