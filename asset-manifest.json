@@ -1,7 +1,7 @@
 {
   "main.css": "/cross-pitchapp/static/css/main.51272860.chunk.css",
-  "main.js": "/cross-pitchapp/static/js/main.e73b47f8.chunk.js",
-  "main.js.map": "/cross-pitchapp/static/js/main.e73b47f8.chunk.js.map",
+  "main.js": "/cross-pitchapp/static/js/main.a1dd7176.chunk.js",
+  "main.js.map": "/cross-pitchapp/static/js/main.a1dd7176.chunk.js.map",
   "static/js/1.bbdb09b5.chunk.js": "/cross-pitchapp/static/js/1.bbdb09b5.chunk.js",
   "static/js/1.bbdb09b5.chunk.js.map": "/cross-pitchapp/static/js/1.bbdb09b5.chunk.js.map",
   "runtime~main.js": "/cross-pitchapp/static/js/runtime~main.f3668dda.js",
@@ -9,6 +9,6 @@
   "static/media/pot.svg": "/cross-pitchapp/static/media/pot.342a126b.svg",
   "static/css/main.51272860.chunk.css.map": "/cross-pitchapp/static/css/main.51272860.chunk.css.map",
   "index.html": "/cross-pitchapp/index.html",
-  "precache-manifest.e90e6a4cc4e75d59cf9d315e3649072f.js": "/cross-pitchapp/precache-manifest.e90e6a4cc4e75d59cf9d315e3649072f.js",
+  "precache-manifest.63ced59861f9fdb7c4350eeeb8113cf2.js": "/cross-pitchapp/precache-manifest.63ced59861f9fdb7c4350eeeb8113cf2.js",
   "service-worker.js": "/cross-pitchapp/service-worker.js"
 }

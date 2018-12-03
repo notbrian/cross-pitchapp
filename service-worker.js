@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cross-pitchapp/precache-manifest.e90e6a4cc4e75d59cf9d315e3649072f.js"
+  "/cross-pitchapp/precache-manifest.63ced59861f9fdb7c4350eeeb8113cf2.js"
 );
 
 workbox.clientsClaim();
