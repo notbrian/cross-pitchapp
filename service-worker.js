@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pitchapp/precache-manifest.cf4f6a79d9334ea574ffdcb6bef81f3f.js"
+  "/cross-pitchapp/precache-manifest.baffec8ecce01559cd5b2986fb8299af.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pitchapp/index.html", {
+workbox.routing.registerNavigationRoute("/cross-pitchapp/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
