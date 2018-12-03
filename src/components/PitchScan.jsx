@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from "styled-components"
 import { BrowserRouter as Router, Link } from 'react-router-dom';
+import potLogo from '../icons/pot.svg'
 var QRCode = require('qrcode.react');
 
 
@@ -34,7 +35,7 @@ const Submit = styled.input `
     }
 `
 
-const Header = styled.h1`
+const Heading = styled.h1`
 
 `
 const Confirm = styled(Link)`
@@ -62,7 +63,8 @@ class pitchScan extends Component {
             total: this.props.location.state.total,
             numPeople: this.props.location.state.numPeople,
             owner: this.props.location.state.owner,
-            perPerson: parseInt(this.props.location.total)/parseInt(this.props.location.numPeople)
+            perPerson: this.props.location.state.perPerson
+            
         }
 
 
@@ -78,9 +80,11 @@ class pitchScan extends Component {
         return (
         <Container>
             <div>
-              <QRCode value={`${this.state}`} />
-              <Header >Pitching {this.state.perPerson}</Header>
-
+              <QRCode value={`${JSON.stringify(this.state)}`} />
+              <p >{this.state.nameT}</p>
+              <p >{this.state.perPerson} per person</p>
+              <img src={potLogo} alt="pot"/>
+              <Heading> 1/{this.state.numPeople} Pitched </Heading>
             </div>
         </Container>
         );

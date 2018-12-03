@@ -34,7 +34,7 @@ const Submit = styled.input `
     }
 `
 
-const Header = styled.h1`
+const Heading = styled.h1`
 
 `
 const Confirm = styled(Link)`
@@ -88,7 +88,7 @@ class Create extends Component {
                 total: this.state.total,
                 numPeople: this.state.numPeople,
                 owner: this.state.owner,
-                perPerson: parseInt(this.state.total)/parseInt(this.state.numPeople)
+                perPerson: Math.round(parseInt(this.state.total)/parseInt(this.state.numPeople))
             }
             confirm = (
                 <div>
@@ -101,7 +101,8 @@ class Create extends Component {
                         nameT: this.state.nameT,
                         total: this.state.total,
                         numPeople: this.state.numPeople,
-                        owner: this.state.owner
+                        owner: this.state.owner,
+                        perPerson: pitchData.perPerson
                       }
                   }}>Confirm</Confirm>
                 </div>
@@ -114,7 +115,6 @@ class Create extends Component {
         return (
         <Container>
             <div>
-              <Header >Create</Header>
               <form onSubmit={this.handleSubmit}>
                 <label htmlFor="nameT">What for?</label>
                 <input type="text" name="nameT" id="nameT" placeholder="dinner" onChange={this.handleChange}/>

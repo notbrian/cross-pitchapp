@@ -33,6 +33,23 @@ const Action = styled(Link) `
     }
 
 `
+const TopBar = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  height: 20vh;
+  background-color: #a6d496;
+
+`;
+
+const Title = styled.h1`
+  align-self: flex-end;
+  justify-self: center;
+  letter-spacing: 5px;
+  bottom: 0;
+`;
 
 class Main extends Component {
   constructor(props) {
@@ -42,6 +59,9 @@ class Main extends Component {
   render() { 
     return (
       <Container>
+          <TopBar>
+            <Title> PITCH </Title>
+          </TopBar>
           <div> 
             <Action to="/create">Create Pitch</Action>
             <Action to="/scan"> Scan Pitch</Action>
