@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "aab17117f5f2678968f1",
+    "revision": "9549d8aa1223c961108a",
     "url": "/cross-pitchapp/static/css/main.6b089ed1.chunk.css"
   },
   {
-    "revision": "aab17117f5f2678968f1",
-    "url": "/cross-pitchapp/static/js/main.aab17117.chunk.js"
+    "revision": "9549d8aa1223c961108a",
+    "url": "/cross-pitchapp/static/js/main.9549d8aa.chunk.js"
   },
   {
     "revision": "ef97f2b5dbbf3681a2e4",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/cross-pitchapp/static/media/pot.342a126b.svg"
   },
   {
-    "revision": "f3499f909026a7b0cc86dd6b2771381f",
+    "revision": "79d470ddf39b57cae03241fe85ed0953",
     "url": "/cross-pitchapp/index.html"
   }
 ];
