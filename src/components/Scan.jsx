@@ -36,7 +36,7 @@ class Scan extends Component {
       delay: 100,
       result: 'No result',
       display: false,
-      facingMode: 'environment',
+      facingMode: 'user',
     };
 
 
@@ -107,7 +107,6 @@ class Scan extends Component {
           facingMode={this.state.facingMode}
           
           />
-        <p>{this.state.result}</p>
           </div>
         
       </Container>

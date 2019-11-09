@@ -61,7 +61,7 @@ class Create extends Component {
             confirm: false,
             nameT: "",
             total: 0,
-            numPeople: 0,
+            numPeople: 2,
             owner: "Brian Nguyen"
         }
     }
@@ -117,11 +117,12 @@ class Create extends Component {
             <div>
               <form onSubmit={this.handleSubmit}>
                 <label htmlFor="nameT">What for?</label>
-                <input type="text" name="nameT" id="nameT" placeholder="dinner" onChange={this.handleChange}/>
+                <input type="text" name="nameT" id="nameT" placeholder="Lunch at Moxies" onChange={this.handleChange}/>
                 <label htmlFor="total">Total $CAD</label>
                 <input type="text" name="total" id="total" onChange={this.handleChange} placeholder="50?"/>
                 <label htmlFor="numPeople"># of People </label>
-                <input type="range" name="numPeople" id="numPeople" onChange={this.handleChange}  min="0" max="11"/>
+                <input type="range" name="numPeople" id="numPeople" onChange={this.handleChange} min="2" max="20" value={this.state.numPeople}/>
+                <label for="numPeople">{this.state.numPeople}</label>
                 <Submit type="submit" value="Generate"/>
               </form>
               {confirm}
